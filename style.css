@@ -1,0 +1,183 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box
+;}
+
+
+html{
+  font-family:"Robot",sans-serif ;
+}
+
+/* aside */
+#aside{
+
+  width: 300px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 /15%);
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  
+
+}
+
+#aside .top{
+  position: relative;
+}
+
+#aside .top>img{
+  width: 300px;
+  display: block;
+}
+
+
+#aside .overlay {
+  top: 0;
+  position :absolute;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+
+
+#aside .avatar>img{
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+}
+
+
+
+#aside .intro{
+  display: block;
+  bottom: 1px;
+  margin: 20px;
+  font-size: 20px;
+  color: rgb(245, 240, 244);
+  font-weight: 100;
+}
+
+#aside .CONNECT {
+  border: 2PX solid color black ;
+  border-radius: 18px;
+  padding: 35px;
+  margin-bottom: 5px;font-weight: 100;
+  text-align: center;
+  
+}
+
+#aside .sidenav {
+background-color: white;
+height: 100%;
+
+}
+
+
+#aside .sidenav li{
+  
+  list-style-type: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+/* maincontant */
+
+
+
+#mainContent{
+  margin-left: 300px;
+  padding: 20px;
+}
+.ar-card-img-top{
+  height: 364px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.ar-row{
+  display: flex;
+}
+
+
+.ar-center{
+  text-align: center;
+}
+
+.ar-muted{
+  color: #555151;
+  font-size: smaller;
+}
+
+.ar-shadow{
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 /15%);
+}
+
+
+.header-profile .header-introduce{
+  width: 360px;
+  position: relative;
+  padding-left: 100px;
+}
+
+
+.header-profile .header-introduce img{
+  position: absolute;
+  border-radius: 100%;
+  width: 80px;
+  top: -40px;
+  left: 20px;
+}
+
+
+
+.header-profile .header-details{
+  width: 360px;
+}
+.header-profile .header-details .item{
+  width: 33%;
+
+}
+
+
+.header-profile .ar-card-content{
+ 
+  height: 120px;
+}
+.ar-card-content .header-details,
+.ar-card-content .header-introduce{
+
+align-content: center;
+display: flex;
+flex-wrap: wrap;
+}
+
+.header-details>.ar-row{
+  justify-content: space-between;
+}
+
+.mainbox{
+  display: block;
+  padding: 15px;
+  text-align: right;
+}
+
+p{
+  display: block;
+  padding: 25px;
+text-align: right;
+font-size: 20px;
+
+
+}
+
+
+
+
+
+
+
